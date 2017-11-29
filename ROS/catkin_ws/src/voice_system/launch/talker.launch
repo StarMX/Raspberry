@@ -1,0 +1,8 @@
+<launch>
+	<node name="talker" pkg="voice_system" type="talker.py" output="screen">
+		<!-- Setup parameters -->
+		<param name="~pub_timestep" value="10"/>
+		<!-- Remapping topics -->
+		<!--<remap from="~topic_b" to="~topic_a"/>-->
+	</node>
+</launch>

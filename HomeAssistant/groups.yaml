@@ -1,0 +1,13 @@
+Familia:
+  entities:
+    - device_tracker.starz_iphonese
+
+Exterior:
+  entities:
+    - sun.sun
+    - sensor.yr_symbol
+Door:
+  entities:
+    - binary_sensor.door_window_sensor_158d0001212166
+    - binary_sensor.door_window_sensor_158d0001a2f5a7
+    - binary_sensor.door_window_sensor_158d0001a5dc24

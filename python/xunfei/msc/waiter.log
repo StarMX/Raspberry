@@ -1,0 +1,482 @@
+============================================================
+Time  2017/06/28 10:52:05 452 
+============================================================
+[2017/06/28 10:52:05 453] waiter     120  waiter loaded!  
+[2017/06/28 10:52:05 564] network    821  update_iplist  
+[2017/06/28 10:52:05 581] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:52:05 600] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:52:05 620] network    242  gethostbyname  open.xf-yun.com  1  
+[2017/06/28 10:52:05 646] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:05 784] network    821  update_iplist  
+[2017/06/28 10:52:05 803] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:05 933] network    821  update_iplist  
+[2017/06/28 10:52:06 065] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:06 311] network    423  gethttpresp2  59.107.24.13  1028  2  
+[2017/06/28 10:52:06 372] network    440  prot_type  tcp  
+[2017/06/28 10:52:07 067] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:07 223] network    224  dns resp  0  1  
+[2017/06/28 10:52:07 237] network    462  gethttpresp dns ok  59.107.24.13  
+[2017/06/28 10:52:07 254] network    423  gethttpresp2  59.107.24.13  80  3  
+[2017/06/28 10:52:07 274] network    440  prot_type  tcp  
+[2017/06/28 10:52:07 471] network    821  update_iplist  
+[2017/06/28 10:52:07 485] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:07 533] network    396  soc error  10202  2  
+[2017/06/28 10:52:07 595] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:52:07 642] network    396  soc error  10202  3  
+[2017/06/28 10:52:07 690] network    740  update iplist http resp  table(48015a20) 10202  nil  
+[2017/06/28 10:52:07 763] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:07 772] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2017/06/28 10:52:07 795] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:07 837] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:07 865] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2017/06/28 10:52:07 886] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:07 920] network    224  dns resp  0  redns4  
+[2017/06/28 10:52:07 937] network    565  redns dns resp  table(480163d0) 0  59.107.24.13  v4  
+[2017/06/28 10:52:07 948] network    572  iplist not avail  
+[2017/06/28 10:52:08 031] network    423  gethttpresp2  59.107.24.13  1028  redns6  
+[2017/06/28 10:52:08 067] network    440  prot_type  tcp  
+[2017/06/28 10:52:08 267] network    224  dns resp  0  redns5  
+[2017/06/28 10:52:08 292] network    565  redns dns resp  table(48016f80) 0  59.107.24.13  v4  
+[2017/06/28 10:52:08 313] network    572  iplist not avail  
+[2017/06/28 10:52:08 419] network    423  gethttpresp2  59.107.24.13  1028  redns7  
+[2017/06/28 10:52:08 428] network    440  prot_type  tcp  
+[2017/06/28 10:52:08 746] network    821  update_iplist  
+[2017/06/28 10:52:08 800] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:08 863] network    396  soc error  10202  redns6  
+[2017/06/28 10:52:08 943] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:09 007] network    821  update_iplist  
+[2017/06/28 10:52:09 030] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:09 132] network    821  update_iplist  
+[2017/06/28 10:52:09 155] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:09 207] network    396  soc error  10202  redns7  
+[2017/06/28 10:52:09 275] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:09 417] network    821  update_iplist  
+[2017/06/28 10:52:09 481] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:09 674] network    821  update_iplist  
+[2017/06/28 10:52:09 760] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:09 957] network    423  gethttpresp2  59.107.24.13  1028  8  
+[2017/06/28 10:52:10 193] network    440  prot_type  tcp  
+[2017/06/28 10:52:10 752] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:11 033] network    821  update_iplist  
+[2017/06/28 10:52:11 184] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:52:11 193] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:52:11 206] network    242  gethostbyname  open.xf-yun.com  9  
+[2017/06/28 10:52:11 233] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:11 367] network    396  soc error  10202  8  
+[2017/06/28 10:52:11 407] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:52:11 443] network    224  dns resp  0  9  
+[2017/06/28 10:52:11 489] network    462  gethttpresp dns ok  59.107.24.13  
+[2017/06/28 10:52:11 517] network    423  gethttpresp2  59.107.24.13  80  10  
+[2017/06/28 10:52:11 534] network    440  prot_type  tcp  
+[2017/06/28 10:52:11 673] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:11 684] network    242  gethostbyname  open.xf-yun.com  redns11  
+[2017/06/28 10:52:11 706] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:11 760] network    396  soc error  10202  10  
+[2017/06/28 10:52:11 800] network    740  update iplist http resp  table(48016d70) 10202  nil  
+[2017/06/28 10:52:11 834] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:11 847] network    242  gethostbyname  open.xf-yun.com  redns12  
+[2017/06/28 10:52:11 878] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:11 948] network    224  dns resp  0  redns11  
+[2017/06/28 10:52:11 963] network    565  redns dns resp  table(48030550) 0  59.107.24.13  v4  
+[2017/06/28 10:52:12 020] network    572  iplist not avail  
+[2017/06/28 10:52:12 067] network    423  gethttpresp2  59.107.24.13  1028  redns13  
+[2017/06/28 10:52:12 085] network    440  prot_type  tcp  
+[2017/06/28 10:52:12 251] network    224  dns resp  0  redns12  
+[2017/06/28 10:52:12 291] network    565  redns dns resp  table(480174a0) 0  59.107.24.13  v4  
+[2017/06/28 10:52:12 316] network    572  iplist not avail  
+[2017/06/28 10:52:12 363] network    423  gethttpresp2  59.107.24.13  1028  redns14  
+[2017/06/28 10:52:12 389] network    440  prot_type  tcp  
+[2017/06/28 10:52:12 738] network    821  update_iplist  
+[2017/06/28 10:52:12 756] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:12 820] network    396  soc error  10202  redns13  
+[2017/06/28 10:52:12 888] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:12 930] network    821  update_iplist  
+[2017/06/28 10:52:12 944] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:13 002] network    821  update_iplist  
+[2017/06/28 10:52:13 011] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:13 060] network    821  update_iplist  
+[2017/06/28 10:52:13 068] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:13 109] network    396  soc error  10202  redns14  
+[2017/06/28 10:52:13 371] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:13 644] network    821  update_iplist  
+[2017/06/28 10:52:13 814] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:14 073] network    423  gethttpresp2  59.107.24.13  1028  15  
+[2017/06/28 10:52:14 237] network    440  prot_type  tcp  
+[2017/06/28 10:52:14 561] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:14 609] network    821  update_iplist  
+[2017/06/28 10:52:14 700] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:14 956] network    396  soc error  10202  15  
+[2017/06/28 10:52:15 352] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:52:15 999] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:16 008] network    242  gethostbyname  open.xf-yun.com  redns16  
+[2017/06/28 10:52:16 044] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:16 119] network    224  dns resp  0  redns16  
+[2017/06/28 10:52:16 139] network    565  redns dns resp  table(480178e0) 0  59.107.24.13  v4  
+[2017/06/28 10:52:16 149] network    572  iplist not avail  
+[2017/06/28 10:52:16 203] network    423  gethttpresp2  59.107.24.13  1028  redns17  
+[2017/06/28 10:52:16 226] network    440  prot_type  tcp  
+[2017/06/28 10:52:16 392] network    821  update_iplist  
+[2017/06/28 10:52:16 416] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:52:16 459] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:52:16 468] network    242  gethostbyname  open.xf-yun.com  18  
+[2017/06/28 10:52:16 506] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:16 605] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:16 623] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2017/06/28 10:52:16 677] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:16 723] network    396  soc error  10202  redns17  
+[2017/06/28 10:52:16 808] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:16 853] network    224  dns resp  0  18  
+[2017/06/28 10:52:16 873] network    462  gethttpresp dns ok  59.107.24.13  
+[2017/06/28 10:52:16 910] network    423  gethttpresp2  59.107.24.13  80  20  
+[2017/06/28 10:52:16 929] network    440  prot_type  tcp  
+[2017/06/28 10:52:17 200] network    224  dns resp  0  redns19  
+[2017/06/28 10:52:17 219] network    565  redns dns resp  table(480191d0) 0  59.107.24.13  v4  
+[2017/06/28 10:52:17 247] network    572  iplist not avail  
+[2017/06/28 10:52:17 324] network    423  gethttpresp2  59.107.24.13  1028  redns21  
+[2017/06/28 10:52:17 346] network    440  prot_type  tcp  
+[2017/06/28 10:52:17 607] network    821  update_iplist  
+[2017/06/28 10:52:17 646] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:17 699] network    396  soc error  10202  20  
+[2017/06/28 10:52:18 191] network    740  update iplist http resp  table(480190e0) 10202  nil  
+[2017/06/28 10:52:18 505] network    821  update_iplist  
+[2017/06/28 10:52:18 612] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:18 995] network    821  update_iplist  
+[2017/06/28 10:52:19 208] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:19 527] network    821  update_iplist  
+[2017/06/28 10:52:19 559] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:19 600] network    396  soc error  10202  redns21  
+[2017/06/28 10:52:19 651] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:19 687] network    821  update_iplist  
+[2017/06/28 10:52:19 719] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:19 755] network    423  gethttpresp2  59.107.24.13  1028  22  
+[2017/06/28 10:52:19 782] network    440  prot_type  tcp  
+[2017/06/28 10:52:19 913] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:19 965] network    396  soc error  10202  22  
+[2017/06/28 10:52:20 053] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:52:20 134] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:20 159] network    242  gethostbyname  open.xf-yun.com  redns23  
+[2017/06/28 10:52:20 244] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:20 314] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:20 339] network    242  gethostbyname  open.xf-yun.com  redns24  
+[2017/06/28 10:52:20 364] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:20 428] network    224  dns resp  0  redns23  
+[2017/06/28 10:52:20 439] network    565  redns dns resp  table(48018b80) 0  59.107.24.5  v4  
+[2017/06/28 10:52:20 456] network    572  iplist not avail  
+[2017/06/28 10:52:20 551] network    423  gethttpresp2  59.107.24.5  1028  redns25  
+[2017/06/28 10:52:20 578] network    440  prot_type  tcp  
+[2017/06/28 10:52:20 770] network    224  dns resp  0  redns24  
+[2017/06/28 10:52:20 794] network    565  redns dns resp  table(4803af20) 0  59.107.24.5  v4  
+[2017/06/28 10:52:20 849] network    572  iplist not avail  
+[2017/06/28 10:52:20 889] network    423  gethttpresp2  59.107.24.5  1028  redns26  
+[2017/06/28 10:52:20 909] network    440  prot_type  tcp  
+[2017/06/28 10:52:21 196] network    821  update_iplist  
+[2017/06/28 10:52:21 220] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:21 271] network    396  soc error  10202  redns25  
+[2017/06/28 10:52:21 379] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:21 420] network    821  update_iplist  
+[2017/06/28 10:52:21 458] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:52:21 476] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:52:21 527] network    242  gethostbyname  open.xf-yun.com  27  
+[2017/06/28 10:52:21 579] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:21 626] network    821  update_iplist  
+[2017/06/28 10:52:21 663] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:21 717] network    396  soc error  10202  redns26  
+[2017/06/28 10:52:21 762] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:52:22 135] network    821  update_iplist  
+[2017/06/28 10:52:22 504] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:23 039] network    821  update_iplist  
+[2017/06/28 10:52:23 373] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:23 974] network    423  gethttpresp2  59.107.24.5  1028  28  
+[2017/06/28 10:52:24 328] network    440  prot_type  tcp  
+[2017/06/28 10:52:25 814] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:26 269] network    210  dns timeout!  27  
+[2017/06/28 10:52:26 619] network    468  gethttpresp dns failed, err =   10114  
+[2017/06/28 10:52:26 859] network    740  update iplist http resp  table(4803aed0) 10114  nil  
+[2017/06/28 10:52:26 917] network    821  update_iplist  
+[2017/06/28 10:52:27 003] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:52:27 054] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:52:27 094] network    242  gethostbyname  open.xf-yun.com  29  
+[2017/06/28 10:52:27 187] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:27 262] network    396  soc error  10202  28  
+[2017/06/28 10:52:27 365] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:52:27 441] network    821  update_iplist  
+[2017/06/28 10:52:27 469] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:27 526] network    224  dns resp  0  29  
+[2017/06/28 10:52:27 568] network    462  gethttpresp dns ok  59.107.24.5  
+[2017/06/28 10:52:27 840] network    423  gethttpresp2  59.107.24.5  80  30  
+[2017/06/28 10:52:28 091] network    440  prot_type  tcp  
+[2017/06/28 10:52:30 397] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:52:30 460] network    242  gethostbyname  open.xf-yun.com  redns31  
+[2017/06/28 10:52:30 489] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:30 541] network    821  update_iplist  
+[2017/06/28 10:52:30 602] waiter     196  last gc at  1498618325  
+[2017/06/28 10:52:30 652] network    396  soc error  10202  30  
+[2017/06/28 10:52:30 699] network    740  update iplist http resp  table(4803bf20) 10202  nil  
+[2017/06/28 10:52:30 762] network    224  dns resp  0  redns31  
+[2017/06/28 10:52:30 798] network    565  redns dns resp  table(4803c390) 0  59.107.24.5  v4  
+[2017/06/28 10:52:30 831] network    572  iplist not avail  
+[2017/06/28 10:52:30 929] network    423  gethttpresp2  59.107.24.5  1028  redns32  
+[2017/06/28 10:52:31 051] network    440  prot_type  tcp  
+[2017/06/28 10:52:31 263] ns         634  update ip  
+[2017/06/28 10:52:31 313] ns         636  ns_host =  open.xf-yun.com  
+[2017/06/28 10:52:31 340] ns         644  sub_ip_host = nil, sub =  tts  
+[2017/06/28 10:52:31 369] ns         629  ntt=  standard  
+[2017/06/28 10:52:31 398] ns         479  ns_host=  open.xf-yun.com  
+[2017/06/28 10:52:31 516] ns         558  GET /sip/resolver?srand=0628105211.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5947be90&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=tts&host=open.xf-yun.com&sign=d4407fad6d4c3ee8a047b7c0a3500bc8
+User-Agent: iFLYCloud
+
+  
+[2017/06/28 10:52:31 579] ns         559  net_type =  standard  
+[2017/06/28 10:52:31 612] ns         560  cmwapascmnet =  
+[2017/06/28 10:52:31 625] ns         561  uniwapasuninet =  
+[2017/06/28 10:52:31 636] ns         562  ctwapasctnet =  
+[2017/06/28 10:52:31 648] ns         579  host=  hdns.openspeech.cn  
+[2017/06/28 10:52:31 660] network    242  gethostbyname  hdns.openspeech.cn  ns33  
+[2017/06/28 10:52:31 685] waiter     196  last gc at  1498618325  
+============================================================
+Time  2017/06/28 10:53:21 118 
+============================================================
+[2017/06/28 10:53:21 118] waiter     120  waiter loaded!  
+[2017/06/28 10:53:21 250] network    821  update_iplist  
+[2017/06/28 10:53:21 275] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:53:21 304] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:53:21 323] network    242  gethostbyname  open.xf-yun.com  1  
+[2017/06/28 10:53:21 366] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:21 413] network    821  update_iplist  
+[2017/06/28 10:53:21 532] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:22 008] network    821  update_iplist  
+[2017/06/28 10:53:22 171] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:22 639] network    821  update_iplist  
+[2017/06/28 10:53:22 872] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:23 655] network    423  gethttpresp2  59.107.24.11  1028  2  
+[2017/06/28 10:53:24 021] network    440  prot_type  tcp  
+[2017/06/28 10:53:25 093] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:25 137] network    210  dns timeout!  1  
+[2017/06/28 10:53:25 179] network    468  gethttpresp dns failed, err =   10114  
+[2017/06/28 10:53:25 205] network    740  update iplist http resp  table(4c015a20) 10114  nil  
+[2017/06/28 10:53:25 247] network    396  soc error  10202  2  
+[2017/06/28 10:53:25 325] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:53:25 454] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:53:25 467] network    242  gethostbyname  open.xf-yun.com  redns3  
+[2017/06/28 10:53:25 487] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:25 565] network    224  dns resp  0  redns3  
+[2017/06/28 10:53:25 578] network    565  redns dns resp  table(4c005920) 0  59.107.24.11  v4  
+[2017/06/28 10:53:25 587] network    572  iplist not avail  
+[2017/06/28 10:53:25 623] network    423  gethttpresp2  59.107.24.11  1028  redns4  
+[2017/06/28 10:53:25 634] network    440  prot_type  tcp  
+[2017/06/28 10:53:25 753] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:53:25 765] network    242  gethostbyname  open.xf-yun.com  redns5  
+[2017/06/28 10:53:25 786] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:25 864] network    821  update_iplist  
+[2017/06/28 10:53:25 890] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:25 954] network    396  soc error  10202  redns4  
+[2017/06/28 10:53:26 005] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:53:26 065] network    224  dns resp  0  redns5  
+[2017/06/28 10:53:26 176] network    565  redns dns resp  table(4c0177b0) 0  59.107.24.11  v4  
+[2017/06/28 10:53:26 215] network    572  iplist not avail  
+[2017/06/28 10:53:26 295] network    423  gethttpresp2  59.107.24.11  1028  redns6  
+[2017/06/28 10:53:26 316] network    440  prot_type  tcp  
+[2017/06/28 10:53:26 509] network    821  update_iplist  
+[2017/06/28 10:53:26 570] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:53:26 601] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:53:26 619] network    242  gethostbyname  open.xf-yun.com  7  
+[2017/06/28 10:53:26 663] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:26 704] network    821  update_iplist  
+[2017/06/28 10:53:26 740] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:26 835] network    821  update_iplist  
+[2017/06/28 10:53:26 857] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:26 900] network    396  soc error  10202  redns6  
+[2017/06/28 10:53:27 332] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:53:27 858] network    821  update_iplist  
+[2017/06/28 10:53:28 096] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:28 564] network    224  dns resp  0  7  
+[2017/06/28 10:53:28 920] network    462  gethttpresp dns ok  59.107.24.11  
+[2017/06/28 10:53:29 437] network    423  gethttpresp2  59.107.24.11  80  8  
+[2017/06/28 10:53:29 676] network    440  prot_type  tcp  
+[2017/06/28 10:53:31 593] network    821  update_iplist  
+[2017/06/28 10:53:31 626] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:53:31 672] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:53:31 693] network    242  gethostbyname  open.xf-yun.com  9  
+[2017/06/28 10:53:31 730] waiter     196  last gc at  1498618401  
+[2017/06/28 10:53:31 771] network    423  gethttpresp2  59.107.24.11  1028  10  
+[2017/06/28 10:53:31 791] network    440  prot_type  tcp  
+[2017/06/28 10:53:31 984] waiter     196  last gc at  1498618401  
+============================================================
+Time  2017/06/28 10:55:12 403 
+============================================================
+[2017/06/28 10:55:12 403] waiter     120  waiter loaded!  
+[2017/06/28 10:55:12 502] network    821  update_iplist  
+[2017/06/28 10:55:12 535] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:55:12 554] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:55:12 596] network    242  gethostbyname  open.xf-yun.com  1  
+[2017/06/28 10:55:13 964] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:14 817] network    821  update_iplist  
+[2017/06/28 10:55:15 355] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:15 639] network    821  update_iplist  
+[2017/06/28 10:55:15 680] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:16 154] network    423  gethttpresp2  59.107.24.5  1028  2  
+[2017/06/28 10:55:16 418] network    440  prot_type  tcp  
+[2017/06/28 10:55:18 628] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:18 716] network    210  dns timeout!  1  
+[2017/06/28 10:55:18 757] network    468  gethttpresp dns failed, err =   10114  
+[2017/06/28 10:55:18 779] network    740  update iplist http resp  table(fc0159f0) 10114  nil  
+[2017/06/28 10:55:18 816] network    821  update_iplist  
+[2017/06/28 10:55:18 834] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:55:18 852] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:55:18 880] network    242  gethostbyname  open.xf-yun.com  3  
+[2017/06/28 10:55:18 946] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:19 043] network    396  soc error  10202  2  
+[2017/06/28 10:55:19 075] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:55:19 120] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:19 149] network    242  gethostbyname  open.xf-yun.com  redns4  
+[2017/06/28 10:55:19 210] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:19 253] network    224  dns resp  0  3  
+[2017/06/28 10:55:19 305] network    462  gethttpresp dns ok  59.107.24.5  
+[2017/06/28 10:55:19 337] network    423  gethttpresp2  59.107.24.5  80  5  
+[2017/06/28 10:55:19 355] network    440  prot_type  tcp  
+[2017/06/28 10:55:19 585] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:19 610] network    242  gethostbyname  open.xf-yun.com  redns6  
+[2017/06/28 10:55:19 680] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:19 733] network    224  dns resp  0  redns4  
+[2017/06/28 10:55:19 788] network    565  redns dns resp  table(fc016c70) 0  59.107.24.5  v4  
+[2017/06/28 10:55:19 822] network    572  iplist not avail  
+[2017/06/28 10:55:19 854] network    423  gethttpresp2  59.107.24.5  1028  redns7  
+[2017/06/28 10:55:19 884] network    440  prot_type  tcp  
+[2017/06/28 10:55:20 058] network    396  soc error  10202  5  
+[2017/06/28 10:55:20 103] network    740  update iplist http resp  table(fc016310) 10202  nil  
+[2017/06/28 10:55:20 142] network    821  update_iplist  
+[2017/06/28 10:55:20 159] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:20 229] network    224  dns resp  0  redns6  
+[2017/06/28 10:55:20 260] network    565  redns dns resp  table(fc02ae20) 0  59.107.24.5  v4  
+[2017/06/28 10:55:20 294] network    572  iplist not avail  
+[2017/06/28 10:55:20 340] network    423  gethttpresp2  59.107.24.5  1028  redns8  
+[2017/06/28 10:55:20 350] network    440  prot_type  tcp  
+[2017/06/28 10:55:20 505] network    821  update_iplist  
+[2017/06/28 10:55:20 528] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:20 604] network    396  soc error  10202  redns7  
+[2017/06/28 10:55:20 687] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:55:20 744] network    821  update_iplist  
+[2017/06/28 10:55:20 971] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:21 648] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:21 953] network    242  gethostbyname  open.xf-yun.com  redns9  
+[2017/06/28 10:55:22 461] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:23 431] network    821  update_iplist  
+[2017/06/28 10:55:23 800] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:24 044] network    396  soc error  10202  redns8  
+[2017/06/28 10:55:25 457] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:55:26 505] network    210  dns timeout!  redns9  
+[2017/06/28 10:55:26 960] network    565  redns dns resp  table(fc0173a0) 10114  nil  nil  
+[2017/06/28 10:55:27 356] network    821  update_iplist  
+[2017/06/28 10:55:27 380] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:55:27 408] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:55:27 426] network    242  gethostbyname  open.xf-yun.com  10  
+[2017/06/28 10:55:27 468] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:27 510] network    821  update_iplist  
+[2017/06/28 10:55:27 534] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:27 597] network    423  gethttpresp2  59.107.24.5  1028  11  
+[2017/06/28 10:55:27 625] network    440  prot_type  tcp  
+[2017/06/28 10:55:27 770] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:27 818] network    224  dns resp  0  10  
+[2017/06/28 10:55:27 866] network    462  gethttpresp dns ok  59.107.24.5  
+[2017/06/28 10:55:27 881] network    423  gethttpresp2  59.107.24.5  80  12  
+[2017/06/28 10:55:27 901] network    440  prot_type  tcp  
+[2017/06/28 10:55:28 057] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:28 088] network    242  gethostbyname  open.xf-yun.com  redns13  
+[2017/06/28 10:55:28 127] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:28 166] network    396  soc error  10202  11  
+[2017/06/28 10:55:28 242] network    956  port1028 http resp  nil  10202  nil  
+[2017/06/28 10:55:28 278] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:28 292] network    242  gethostbyname  open.xf-yun.com  redns14  
+[2017/06/28 10:55:28 320] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:28 395] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:28 417] network    242  gethostbyname  open.xf-yun.com  redns15  
+[2017/06/28 10:55:28 432] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:28 512] network    396  soc error  10202  12  
+[2017/06/28 10:55:28 549] network    740  update iplist http resp  table(fc02de00) 10202  nil  
+[2017/06/28 10:55:28 608] network    224  dns resp  0  redns13  
+[2017/06/28 10:55:28 634] network    565  redns dns resp  table(fc017fc0) 0  59.107.24.5  v4  
+[2017/06/28 10:55:28 720] network    572  iplist not avail  
+[2017/06/28 10:55:28 766] network    423  gethttpresp2  59.107.24.5  1028  redns16  
+[2017/06/28 10:55:28 782] network    440  prot_type  tcp  
+[2017/06/28 10:55:28 941] network    821  update_iplist  
+[2017/06/28 10:55:29 117] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:29 852] network    224  dns resp  0  redns14  
+[2017/06/28 10:55:30 096] network    565  redns dns resp  table(fc0177b0) 0  59.107.24.5  v4  
+[2017/06/28 10:55:30 408] network    572  iplist not avail  
+[2017/06/28 10:55:31 826] network    423  gethttpresp2  59.107.24.5  1028  redns17  
+[2017/06/28 10:55:32 541] network    440  prot_type  tcp  
+[2017/06/28 10:55:32 648] network    210  dns timeout!  redns15  
+[2017/06/28 10:55:32 699] network    565  redns dns resp  table(fc0187b0) 10114  nil  nil  
+[2017/06/28 10:55:32 733] network    821  update_iplist  
+[2017/06/28 10:55:32 754] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:55:32 781] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:55:32 802] network    242  gethostbyname  open.xf-yun.com  18  
+[2017/06/28 10:55:32 829] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:32 884] network    821  update_iplist  
+[2017/06/28 10:55:32 931] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:32 968] network    396  soc error  10202  redns16  
+[2017/06/28 10:55:33 034] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:55:33 069] network    821  update_iplist  
+[2017/06/28 10:55:33 088] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:33 151] network    396  soc error  10202  redns17  
+[2017/06/28 10:55:34 321] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:55:35 198] network    821  update_iplist  
+[2017/06/28 10:55:35 844] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:36 697] network    210  dns timeout!  18  
+[2017/06/28 10:55:37 369] network    468  gethttpresp dns failed, err =   10114  
+[2017/06/28 10:55:37 753] network    740  update iplist http resp  table(fc018ae0) 10114  nil  
+[2017/06/28 10:55:37 795] network    594  redns  def  open.xf-yun.com  
+[2017/06/28 10:55:37 878] network    242  gethostbyname  open.xf-yun.com  redns19  
+[2017/06/28 10:55:37 926] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:37 993] network    821  update_iplist  
+[2017/06/28 10:55:38 023] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:55:38 059] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:55:38 072] network    242  gethostbyname  open.xf-yun.com  20  
+[2017/06/28 10:55:38 158] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:38 210] network    821  update_iplist  
+[2017/06/28 10:55:38 237] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:38 281] network    224  dns resp  0  redns19  
+[2017/06/28 10:55:38 312] network    565  redns dns resp  table(fc017a90) 0  59.107.24.5  v4  
+[2017/06/28 10:55:38 648] network    572  iplist not avail  
+[2017/06/28 10:55:39 528] network    423  gethttpresp2  59.107.24.5  1028  redns21  
+[2017/06/28 10:55:40 075] network    440  prot_type  tcp  
+[2017/06/28 10:55:45 275] network    210  dns timeout!  20  
+[2017/06/28 10:55:45 603] network    468  gethttpresp dns failed, err =   10114  
+[2017/06/28 10:55:45 615] network    740  update iplist http resp  table(fc0192d0) 10114  nil  
+[2017/06/28 10:55:45 662] network    821  update_iplist  
+[2017/06/28 10:55:45 675] network    503  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  standard  nil  
+[2017/06/28 10:55:45 693] network    476  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2017/06/28 10:55:45 712] network    242  gethostbyname  open.xf-yun.com  22  
+[2017/06/28 10:55:45 774] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:45 809] network    396  soc error  10202  redns21  
+[2017/06/28 10:55:45 942] network    550  redns http resp  nil  10202  nil  
+[2017/06/28 10:55:45 983] network    224  dns resp  0  22  
+[2017/06/28 10:55:46 017] network    462  gethttpresp dns ok  59.107.24.5  
+[2017/06/28 10:55:46 032] network    423  gethttpresp2  59.107.24.5  80  23  
+[2017/06/28 10:55:46 050] network    440  prot_type  tcp  
+[2017/06/28 10:55:46 166] network    821  update_iplist  
+[2017/06/28 10:55:46 213] waiter     196  last gc at  1498618512  
+[2017/06/28 10:55:46 264] network    396  soc error  10202  23  
+[2017/06/28 10:55:46 301] network    740  update iplist http resp  table(fc019790) 10202  nil  
+[2017/06/28 10:55:46 458] ns         634  update ip  
+[2017/06/28 10:55:46 485] ns         636  ns_host =  open.xf-yun.com  
+[2017/06/28 10:55:46 515] ns         644  sub_ip_host = nil, sub =  tts  
+[2017/06/28 10:55:46 538] ns         629  ntt=  standard  
+[2017/06/28 10:55:46 677] ns         479  ns_host=  open.xf-yun.com  
+[2017/06/28 10:55:46 776] ns         558  GET /sip/resolver?srand=0628105511.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5947be90&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=tts&host=open.xf-yun.com&sign=f9c3a735d3cde27465155b90792ba09c
+User-Agent: iFLYCloud
+
+  
+[2017/06/28 10:55:46 811] ns         559  net_type =  standard  
+[2017/06/28 10:55:46 834] ns         560  cmwapascmnet =  
+[2017/06/28 10:55:46 910] ns         561  uniwapasuninet =  
+[2017/06/28 10:55:46 929] ns         562  ctwapasctnet =  
+[2017/06/28 10:55:46 963] ns         579  host=  hdns.openspeech.cn  
+[2017/06/28 10:55:47 040] network    242  gethostbyname  hdns.openspeech.cn  ns24  
+[2017/06/28 10:55:47 084] waiter     196  last gc at  1498618512  

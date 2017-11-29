@@ -1,0 +1,34 @@
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+
+
+
+country=GB
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+ssid="MX2017"
+psk="**********"
+key_mgmt=WPA-PSK
+priority=1
+}
+
+
+
+#Ò»¼ü½Å±¾
+
+
+sudo tee /etc/wpa_supplicant/wpa_supplicant.conf <<-'EOF'
+country=GB
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+ssid="MX2017"
+psk="**********"
+key_mgmt=WPA-PSK
+priority=1
+}
+EOF
+

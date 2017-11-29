@@ -1,0 +1,27 @@
+sun.sun:
+  friendly_name: 日出日落 时间
+sensor.temperature_158d0001a2b3d1:
+  friendly_name: 温度
+sensor.humidity_158d0001a2b3d1:
+  friendly_name: 湿度
+light.gateway_light_34ce0082952e:
+  friendly_name: 网关灯
+sensor.yr_symbol:
+  friendly_name: 天气
+sensor.illumination_34ce0082952e:
+  friendly_name: 光照强度
+binary_sensor.motion_sensor_158d00015aa042:
+  friendly_name: 客厅运动传感器
+binary_sensor.motion_sensor_158d00015e890e:
+  friendly_name: 运动传感器
+switch.plug_158d0001539ac5:
+  friendly_name: 电视插座
+switch.plug_158d000160f28a:
+  friendly_name: 路由插座
+binary_sensor.water_leak_sensor_158d0001d779ca:
+  friendly_name: 水浸传感器
+binary_sensor.switch_158d000182fd32:
+  friendly_name: 无线开关
+binary_sensor.door_window_sensor_158d0001212166:
+  friendly_name: 入户门
+group.all_switches: {}

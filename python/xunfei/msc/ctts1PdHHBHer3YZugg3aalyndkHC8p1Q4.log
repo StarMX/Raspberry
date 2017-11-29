@@ -1,0 +1,146 @@
+============================================================
+Time  2017/06/28 10:53:19 737 
+============================================================
+[2017/06/28 10:53:19 754] tts        555  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(440118b0) 
+[2017/06/28 10:53:19 799] config     42   use general cloud  
+[2017/06/28 10:53:19 888] tts_cloud  1414 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(440118b0) 
+[2017/06/28 10:53:19 931] tts        527  TTS_MSG_SSB  
+[2017/06/28 10:53:19 939] tts        338  params =  voice_name = vinn, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2017/06/28 10:53:19 949] tts        373  ssb|use cloud  
+[2017/06/28 10:53:19 958] tts_cloud  1385 SYS_MSG_LOAD_CLOUD  
+[2017/06/28 10:53:19 971] tts_cloud  948  TTS_MSG_SSB_CLOUD  
+[2017/06/28 10:53:19 978] tts_cloud  971  tts  ctts1PdHHBHer3YZugg3aalyndkHC8p1Q4  268436457  1495165882  
+[2017/06/28 10:53:20 001] tts_cloud  1017 not login!  
+[2017/06/28 10:53:20 021] tts_cloud  1140 need_decode  true  
+[2017/06/28 10:53:20 032] tts_cloud  1141 aue=  speex-wb;7   auf=  audio/L16;rate=16000  
+[2017/06/28 10:53:20 088] tts_cloud  1163 User set url is   nil  
+[2017/06/28 10:53:20 104] transport  658  paramkvsport is   nil  
+[2017/06/28 10:53:20 113] transport  666  ns_enable=  1  
+[2017/06/28 10:53:20 126] transport  710  url.full=  nil  
+[2017/06/28 10:53:20 133] transport  898  net type:  standard  
+[2017/06/28 10:53:20 147] transport  899  net operator:  def  
+[2017/06/28 10:53:20 159] transport  900  use proxy:  false  
+[2017/06/28 10:53:20 167] transport  1033 session.domain=  open.xf-yun.com  
+[2017/06/28 10:53:20 179] transport  1034 url.host=  open.xf-yun.com  
+[2017/06/28 10:53:20 255] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2017/06/28 10:53:20 268] transport  1068 NAMESERVER START  
+[2017/06/28 10:53:20 276] transport  1071 name =   tts  
+[2017/06/28 10:53:20 286] ns         629  ntt=  standard  
+[2017/06/28 10:53:20 299] transport  1074 trans,ns_inprog =  0  
+[2017/06/28 10:53:20 316] ns         585  name server start  
+[2017/06/28 10:53:20 324] ns         586  ns_sub =   tts  
+[2017/06/28 10:53:20 337] ns         588  ns_host=  open.xf-yun.com  
+[2017/06/28 10:53:20 346] ns         479  ns_host=  open.xf-yun.com  
+[2017/06/28 10:53:20 354] ns         558  GET /sip/resolver?srand=0628105311.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5947be90&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=tts&host=open.xf-yun.com&sign=ff4e4874fc143d21e2edd8be708ee033
+User-Agent: iFLYCloud
+
+  
+[2017/06/28 10:53:20 368] ns         559  net_type =  standard  
+[2017/06/28 10:53:20 384] ns         560  cmwapascmnet =  
+[2017/06/28 10:53:20 392] ns         561  uniwapasuninet =  
+[2017/06/28 10:53:20 412] ns         562  ctwapasctnet =  
+[2017/06/28 10:53:20 420] ns         579  host=  hdns.openspeech.cn  
+[2017/06/28 10:53:20 434] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/06/28 10:53:20 566] tts        533  TTS_MSG_SYN  0  
+[2017/06/28 10:53:20 575] tts        413  synth|use cloud  
+[2017/06/28 10:53:20 620] tts_cloud  1183 TTS_MSG_SYN_CLOUD  
+[2017/06/28 10:53:20 632] tts_cloud  1194 remote_connected =  false  
+[2017/06/28 10:53:20 664] network    224  dns resp  0  ns1  
+[2017/06/28 10:53:20 673] ns         425  ns dns ok  117.121.56.5  
+[2017/06/28 10:53:20 684] ns         205  iplist not avail  
+[2017/06/28 10:53:20 783] ns         432  is_voicecloud_ip=  0  
+[2017/06/28 10:53:20 806] ns         439  ip_is_expected=  true  
+[2017/06/28 10:53:20 820] ns         447  ip_is_expected=  true  
+[2017/06/28 10:53:20 845] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/06/28 10:53:20 854] network    440  prot_type  tcp  
+[2017/06/28 10:53:21 027] transport  142  [dns] [1] response 59.107.24.11  
+[2017/06/28 10:53:21 040] transport  152  59  107  24  11  
+[2017/06/28 10:53:21 049] transport  203  ipv =  v4  
+[2017/06/28 10:53:21 096] transport  207  dns ip is v4  
+[2017/06/28 10:53:21 129] transport  181  iplist not avail  
+[2017/06/28 10:53:21 160] transport  247  no iplist now  
+[2017/06/28 10:53:21 184] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  59.107.24.11  
+[2017/06/28 10:53:21 314] transport  291  dns cb start conn  
+[2017/06/28 10:53:21 331] transport  1266 [soc] connect   59.107.24.11  80  
+[2017/06/28 10:53:21 362] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/06/28 10:53:23 916] network    396  soc error  10202  ns2  
+[2017/06/28 10:53:25 037] ns         256  name server http resp  table(4406c580) 10202  nil  
+[2017/06/28 10:53:25 045] ns         415  ns response failed, err =  10202  
+[2017/06/28 10:53:25 059] ns         116  ns_host=  open.xf-yun.com  
+[2017/06/28 10:53:25 067] ns         118  use default ip  
+[2017/06/28 10:53:25 106] transport  1048 ns_ip =   116.213.69.195  
+[2017/06/28 10:53:25 114] transport  1049 ip_type =  def_ttsopen.xf-yun.com  
+[2017/06/28 10:53:25 127] ns         658  no data in ns_q  
+[2017/06/28 10:53:25 141] ns         659  conti_ns,ns_inprog =   1  
+[2017/06/28 10:53:25 174] transport  562  MSC:[soc] [1] error 10202 19!  
+[2017/06/28 10:53:25 215] transport  57   clear_ip ip_type =  def_ttsopen.xf-yun.com  
+[2017/06/28 10:53:25 251] transport  322  soc_conn_failed  
+[2017/06/28 10:53:25 276] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2017/06/28 10:53:25 330] transport  391  switch 80  
+[2017/06/28 10:53:25 385] transport  1300 [soc] disconnect   
+[2017/06/28 10:53:25 430] tts        536  TTS_MSG_GETAUDIO  0  
+[2017/06/28 10:53:25 438] tts        474  get audio|use cloud  
+[2017/06/28 10:53:25 463] tts_cloud  1278 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2017/06/28 10:53:25 628] transport  1033 session.domain=  open.xf-yun.com  
+[2017/06/28 10:53:25 638] transport  1034 url.host=  open.xf-yun.com  
+[2017/06/28 10:53:25 686] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2017/06/28 10:53:25 698] transport  1068 NAMESERVER START  
+[2017/06/28 10:53:25 709] transport  1071 name =   tts  
+[2017/06/28 10:53:25 718] ns         629  ntt=  standard  
+[2017/06/28 10:53:25 759] transport  1074 trans,ns_inprog =  0  
+[2017/06/28 10:53:25 772] ns         585  name server start  
+[2017/06/28 10:53:25 792] ns         586  ns_sub =   tts  
+[2017/06/28 10:53:25 805] ns         588  ns_host=  open.xf-yun.com  
+[2017/06/28 10:53:25 814] ns         479  ns_host=  open.xf-yun.com  
+[2017/06/28 10:53:25 826] ns         558  GET /sip/resolver?srand=0628105311.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5947be90&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=tts&host=open.xf-yun.com&sign=ff4e4874fc143d21e2edd8be708ee033
+User-Agent: iFLYCloud
+
+  
+[2017/06/28 10:53:25 843] ns         559  net_type =  standard  
+[2017/06/28 10:53:25 877] ns         560  cmwapascmnet =  
+[2017/06/28 10:53:25 900] ns         561  uniwapasuninet =  
+[2017/06/28 10:53:25 967] ns         562  ctwapasctnet =  
+[2017/06/28 10:53:25 992] ns         579  host=  hdns.openspeech.cn  
+[2017/06/28 10:53:26 010] network    242  gethostbyname  hdns.openspeech.cn  ns3  
+[2017/06/28 10:53:26 125] network    224  dns resp  0  ns3  
+[2017/06/28 10:53:26 149] ns         425  ns dns ok  117.121.56.5  
+[2017/06/28 10:53:26 186] ns         205  iplist not avail  
+[2017/06/28 10:53:26 261] ns         432  is_voicecloud_ip=  0  
+[2017/06/28 10:53:26 278] ns         439  ip_is_expected=  true  
+[2017/06/28 10:53:26 286] ns         447  ip_is_expected=  true  
+[2017/06/28 10:53:26 302] network    423  gethttpresp2  117.121.56.5  80  ns4  
+[2017/06/28 10:53:26 312] network    440  prot_type  tcp  
+[2017/06/28 10:53:26 491] transport  142  [dns] [1] response 59.107.24.11  
+[2017/06/28 10:53:26 539] transport  152  59  107  24  11  
+[2017/06/28 10:53:26 548] transport  203  ipv =  v4  
+[2017/06/28 10:53:26 574] transport  207  dns ip is v4  
+[2017/06/28 10:53:26 615] transport  181  iplist not avail  
+[2017/06/28 10:53:26 645] transport  247  no iplist now  
+[2017/06/28 10:53:26 673] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  59.107.24.11  
+[2017/06/28 10:53:26 810] transport  291  dns cb start conn  
+[2017/06/28 10:53:26 839] transport  1266 [soc] connect   59.107.24.11  80  
+[2017/06/28 10:53:26 912] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/06/28 10:53:29 324] network    396  soc error  10202  ns4  
+[2017/06/28 10:53:29 851] ns         256  name server http resp  table(4401b970) 10202  nil  
+[2017/06/28 10:53:30 083] ns         415  ns response failed, err =  10202  
+[2017/06/28 10:53:30 319] ns         116  ns_host=  open.xf-yun.com  
+[2017/06/28 10:53:30 671] ns         118  use default ip  
+[2017/06/28 10:53:30 845] transport  1048 ns_ip =   116.213.69.195  
+[2017/06/28 10:53:31 375] transport  1049 ip_type =  def_ttsopen.xf-yun.com  
+[2017/06/28 10:53:31 609] ns         658  no data in ns_q  
+[2017/06/28 10:53:31 619] ns         659  conti_ns,ns_inprog =   1  
+[2017/06/28 10:53:31 664] transport  562  MSC:[soc] [1] error 10202 19!  
+[2017/06/28 10:53:31 702] transport  57   clear_ip ip_type =  def_ttsopen.xf-yun.com  
+[2017/06/28 10:53:31 717] transport  322  soc_conn_failed  
+[2017/06/28 10:53:31 726] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2017/06/28 10:53:31 844] transport  391  switch 80  
+[2017/06/28 10:53:31 892] transport  1300 [soc] disconnect   
+[2017/06/28 10:53:31 964] tts        536  TTS_MSG_GETAUDIO  0  
+[2017/06/28 10:53:31 989] tts        474  get audio|use cloud  
+[2017/06/28 10:53:32 003] tts_cloud  1278 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  

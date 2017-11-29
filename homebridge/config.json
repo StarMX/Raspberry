@@ -1,0 +1,79 @@
+{
+    "bridge": {
+        "name": "武汉",
+        "username": "C8:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "888-66-888"
+    },
+    "description": "",
+    "platforms": [{ "platform": "MiAqaraPlatform", "sid": 
+["34ce0082952e"], "password": ["98BD436F686249D8"]
+}],
+   "accessories": [
+        {
+            "accessory":"DxSmartHome",
+            "name":"broadlink",
+            "service":"Switch",
+            "command":{
+                "onValue":"find",
+                "offValue":"enterLearning"
+            },
+            "device":"broadlink",
+            "baudrate":9600
+        },
+        {
+            "accessory":"DxSmartHome",
+            "name":"卫生间过道",
+            "service":"Light",
+            "command":{
+                "onValue":"e91f32001c1c0b0b1c1c0b0b1c1c0b0b1b1c0b0b1c0c1c1c0b1c0c0b1c1c0b1c0b1c0b0c1c1d0a1c0b1c0b0b1c0c1c0b1b1d0b1c0bc5000000000000",
+                "offValue":"e92332001c1b0c0b1c1c0c0b1d1b0b0b1c1c0b0c1c0b1d1c0b1c0b0b1c1c0b1c0b1c0c0b1c1c0c1c0b1c0b0b1c1c0c1c0b0b1c1b0cc4000000000000"
+            },
+            "device":"broadlink"
+        },
+        {
+            "accessory":"DxSmartHome",
+            "name":"卧室",
+            "service":"Light",
+            "command":{
+                "onValue": 
+"e90f32001d1c0b0b1c1d0a0c1b1c0b0c1b1c0b0c1b0c1b1c0b1d0a0c1b1c0b1c0b1c0a0c1b1d0a1c0b1c0b0c1b0c1b1c0b1d0a1d0ac5000000000000",
+                "offValue": 
+"e90c32001c1c0b0b1c1c0b0b1c1c0b0b1c1c0b0b1c0c1c1c0b1c0b0c1b1c0b1c0b1c0b0b1c1c0b1c0b1c0b0b1c1c0b0b1c1c0b1c0bc5000000000000"
+            },
+            "device":"broadlink",
+            "baudrate":9600
+        },
+        {
+            "accessory":"DxSmartHome",
+            "name":"卧室风扇",
+            "service":"Fan",
+            "command":{
+                "offValue":"2600f2002a0d2a0e0e292a0e2a0d0f280e290f2a0e270f290e2a29eb2a0e290e0e282a0f280e0e2a0e290e290e2a0d290e292aeb2a0d2a0d0f29290f290d0e2910270f290f280f280e2a29eb2a0e290d0e2a2b0c2b0c10270f290e290e2a0e290e2a2ae92a0e290f0d29290e2a0e0f280e290e290e2a0d290f292be92a0d2b0c0f29290e2a0e0d2a0e290e290f280f280f292be92a0d2a0e0e2a290d2c0b0f290e290e290f280f290e292aea2b0c2b0d0e292b0c2a0f0e280e290e290f280f2a0d292aea2b0d2b0d0d292a0d2b0d0e290e2a0e290e2a0e290d292be92a0e2c0d0c292c0c2b0d0e280e290f290e290e290e292b000d05000000000000",
+                "onValue":"260004012b0d2a0e0e282b0d2a0d0f2810270f280f290e292b0c100001052a0e290d0f2a280f280e0f280e2910280e290e2a290d0f0001062a0e290d0f282b0d2a0d10280d2a0f280e290e292a0e0e000107290d2a0d0f292a0e290d0f280f290e290e2a0e282b0d0e0001062a0d2a0e0e292a0d2a0f0d290e290e2b0e2710282a0e0f000105290d2b0d0f282b0d2a0d0e2a0e280f2810280f282a0d0e0001062b0e2a0d0e282b0e290d0f280e290f290f290e282a0d0e0001062b0d2a0d0e292a0e2a0d0f280e2a0e290e290e292a0f0d0001062a0e2a0d0f29280e2b0d0d2a0e2a0e280f290d292b0d0e0001062a0d2a0d0f292b0c2a0d0e290f290e2a0f270e292c0c0e000d0500000000"
+            },
+            "device":"broadlink",
+            "baudrate":9600
+        },
+        {
+            "accessory":"DxSmartHome",
+            "name":"门禁",
+            "service":"Door",
+            "obstructionRef":false,
+            "command":{
+                "OpenValue":"FA01F101DF",
+                "CloseValue":"FA01F109DF"
+            }
+        },
+        {
+            "accessory":"DxSmartHome",
+            "service":"Temperature",
+            "name":"树莓派温度"
+        },{
+            "accessory":"DxSmartHome",
+            "service":"Temperature",
+            "name":"Broadlink",
+            "device":"broadlink"
+        }
+    ]
+}

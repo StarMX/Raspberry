@@ -1,0 +1,9 @@
+
+starz_iphonese:
+  hide_if_away: false
+  icon:
+  mac:
+  name: starz iphonese
+  picture:
+  track: true
+  vendor:

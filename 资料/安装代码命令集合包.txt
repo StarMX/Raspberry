@@ -1,0 +1,158 @@
+﻿sudo nano /etc/apt/sources.list
+
+deb http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib
+deb-src http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib
+
+sudo apt-get update
+
+sudo apt-get install -y samba screen git
+
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+
+sudo apt-get install -y nodejs
+
+sudo apt-get -y install libavahi-compat-libdnssd-dev
+
+sudo npm install -g --unsafe-perm homebridge hap-nodejs node-gyp
+
+cd /usr/lib/node_modules/homebridge/
+
+sudo npm install --unsafe-perm bignum
+
+cd /usr/lib/node_modules/hap-nodejs/node_modules/mdns
+
+sudo node-gyp BUILDTYPE=Release rebuild
+
+cd /
+
+sudo npm install -g homebridge-homeassistant
+
+homebridge           #####这里先运行一次程序######
+
+######键盘输入Ctrl+C停止homebridge运行，将再次出现命令提示符######
+
+cd /home/pi/.homebridge
+
+###########键盘输入Ctrl+C停止，然后建立config.json配置文件########
+
+sudo nano config.json
+
+################鼠标右键粘贴如下内容######################
+
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "123-45-678"
+    },
+    
+    "platforms": [
+  {
+    "platform": "HomeAssistant",
+    "name": "HomeAssistant",
+    "host": "http://192.168.1.200:8123",
+    "password": "raspberry",
+    "supported_types": ["fan", "garage_door", "input_boolean", "light", "lock", "media_player", "rollershutter", "scene", "switch"]
+  }
+    ]
+}
+
+###################分界线#####################################
+上面的内容，注意格式，粘贴完毕后，按键盘上的Ctrl+X键，输入 Y，保存退出。
+
+
+另外：请注意这几段段代码
+   "username": "CC:22:3D:E3:CE:30",   ###这个MAC地址，可以修改成自己树莓派的MAC地址###
+   "port": 51826,                     ###通讯端口，可以修改，但我觉得不用修改### 
+   "pin": "123-45-678"                ###PIN码，任意修改，格式是XXX-XX-XXX，只能是数字####
+
+"host": "http://192.168.1.200:8123",      
+###其中的192.168.1.200是你的树莓派的局域网IP地址####
+
+ "password": "raspberry",
+###这个是密码，因为我们没有修改树莓派的登录密码，所以这里是raspberry#### 
+
+
+##############再次输入homebridge  回车，检查运行有没有错误########
+
+
+####将homebridge设置成随系统启动######
+cd /
+
+sudo useradd --system homebridge
+
+sudo mkdir /var/homebridge
+
+sudo cp ~/.homebridge/config.json /var/homebridge/
+
+sudo cp -r ~/.homebridge/persist /var/homebridge
+
+sudo chmod -R 0777 /var/homebridge
+
+cd /etc/default
+
+sudo nano homebridge
+
+#########将下面的内容复制粘贴进去，然后Ctrl+X，然后Y，回车，保存退出####
+
+# Defaults / Configuration options for homebridge
+# The following settings tells homebridge where to find the config.json file and where to persist the data (i.e. pairing and others)
+HOMEBRIDGE_OPTS=-U /var/homebridge
+
+# If you uncomment the following line, homebridge will log more 
+# You can display this via systemd's journalctl: journalctl -f -u homebridge
+# DEBUG=*
+
+####分界线#####################################
+
+cd /etc/systemd/system
+
+sudo nano homebridge.service
+
+#########将下面的内容复制粘贴进去，然后Ctrl+X，然后Y，回车，保存退出####
+
+[Unit]
+Description=Node.js HomeKit Server 
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+User=homebridge
+EnvironmentFile=/etc/default/homebridge
+ExecStart=/usr/lib/node_modules/homebridge/bin/homebridge $HOMEBRIDGE_OPTS
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
+####分界线#####################################
+
+cd /
+
+sudo systemctl daemon-reload
+
+sudo systemctl enable homebridge
+
+sudo systemctl start homebridge
+
+sudo systemctl status homebridge
+
+sudo reboot      ####重启树莓派####
+
+###最后，你想返回去修改PIN码，MAC地址等等参数，可以按以下命令行来做####
+
+sudo systemctl stop homebridge         ###停止homebridge运行###
+
+cd /var/homebridge                     ###进入目录###   
+
+sudo nano config.json                  ###编辑配置文件###                 
+
+sudo reboot                            ###重启树莓派#### 
+
+
+
+
+

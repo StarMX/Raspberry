@@ -1,0 +1,4 @@
+<launch>
+	<node name="say" pkg="voice_system" type="say.py" output="screen">
+	</node>
+</launch>
